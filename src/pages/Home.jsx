@@ -28,7 +28,7 @@ const Home = () => {
       <motion.div className='home-content' {...headContainerAnimation}>
         <motion.div {...headTextAnimation}>
           <h1 className='head-text'>
-            EEE <br className='xl:block hiddden'/> RAGDA
+           3D <br className='xl:block hiddden'/> CUSTOMIZER
           </h1>
         </motion.div>
         <motion.div
@@ -38,6 +38,7 @@ const Home = () => {
           <p className='max-w-md font-normal text-gray-600 text-bases'>
             Create Your unique and exclusive shirt with our brand-new 3D customization tool. <strong>Unleash your Imagination</strong>{" "} and define your own style.
           </p>
+          <p className='font-normal text-gray-300 text-bases'>Made by HeaLthyDrugs(Manish)</p>
 
       <CustomButton
       type="filled"
